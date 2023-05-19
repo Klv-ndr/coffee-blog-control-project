@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    
+}
+.supheader {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    background-image: url(imgs/coffeenews-header.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.logo {
+    width: 1170px;
+    height: 140px;
+   
+    background-image: url(imgs/logo_coffeenews.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.subheader {  
+    display: flex;
+    justify-content: center;  
+    width: 100%;
+    height: 60px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 60px;
+}
+.social-icons {
+    width: 80px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.facebook {
+    width: 15px;
+    height: 60px;
+    background-image: url(imgs/facebook-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.twitter {
+    width: 15px;
+    height: 60px;
+    background-image: url(imgs/twitter-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.instagram {
+    width: 15px;
+    height: 60px;
+    background-image: url(imgs/insta-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.search-icon {
+    width: 15px;
+    height: 60px;
+    background-image: url(imgs/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-menu {
+    display: flex;
+    justify-content: center;
+    width: 536px;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-options {
+    margin: 10px;
+}
+.menu-options-home {
+    margin: 10px;
+}
+.sub-menu {
+    display: none;
+}
+.sub-menu:hover {
+    display: block;
+}
